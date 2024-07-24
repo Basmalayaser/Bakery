@@ -1,0 +1,275 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container{
+    width: 80%;
+    margin: auto;
+}
+
+.home{
+    height: 100vh;
+    background-image: url(img/bakeryimg3.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+.caption{
+    color: white;
+    text-align: center;
+    padding-top: 150px;
+}
+.home .caption h1{
+    font-family: "Alegreya";
+    font-size: 76px;
+    padding-top: 20px;
+    font-weight: 400;
+}
+.home .caption p{
+    font-size: 24px;
+    font-family: "Alegreya Sans", sans-serif;
+    width: 45%;
+    margin: 20px auto;
+}
+.home .caption .btn{
+    padding: 15px 30px;
+    background: transparent;
+    color: white;
+    font-family: "Alegreya Sans", sans-serif;
+    font-size: 16px;
+    font-weight: 500;
+    border-radius: 5px;
+    margin-top: 20px;
+  
+}
+.home .caption .btn1{
+    background-color: #8e7754;
+    border: 2px solid transparent;
+    text-transform: capitalize;
+}
+.home .caption .btn2{
+    border: 2px solid white;
+}
+
+/* nav */
+
+.nav-icon{
+    display: inline-block;
+    width: 15%;
+
+}
+.nav-icon img{
+    width: 100%;
+}
+.nav-list{
+    display: inline-block;
+    vertical-align:top;
+    margin-top: 20px;
+    width: 83%;
+    text-align: right;
+    font-size: 18px;
+}
+.nav-list ul li{
+    display: inline-block;
+    padding: 0 10px;
+   
+}
+.nav-list ul li a{
+    color: white;
+    text-decoration: none;
+    text-transform: capitalize;
+}
+.shade{
+    background-color: rgb(0,0,0,0.25);
+    height: 100%;
+}
+.navbar{
+    padding-top: 15px;
+}
+
+h2{
+    font-family: "Alegreya";
+    font-weight: 400;
+    font-size: 32px;
+}
+
+/* about */
+.about .about-img{
+    width: 45%;
+    display: inline-block;
+}
+.about{
+    margin: 80px 0;
+}
+
+.about .about-img img{
+    width: 100%;
+}
+.about .about-text{
+    width: 50%;
+    display: inline-block;
+    padding-left: 40px;
+    vertical-align: top;
+   
+}
+h2{
+    padding: 30px 0; 
+}
+.about .about-text p{
+    font-size: 17px;
+    font-family: "Alegreya Sans", sans-serif;
+    color: #686868;
+    line-height: 35px;
+}
+ .icon-img{
+  display: inline-block;
+  border: 1px solid #cfcece;
+  border-radius: 50%;
+  padding: 10px;
+  color: #8e7754;
+  font-size: 20px;
+  margin-right: 10px;
+}
+.icon-text{
+    display: inline-block;
+}
+.icon{
+    padding: 10px 0;
+}
+
+/* location */
+
+.location ,.contact{
+    background-color: #f8f8f8;
+}
+.ourlocation .location-text p{
+    font-size: 17px;
+    font-family: "Alegreya Sans", sans-serif;
+    color: #686868;
+    line-height: 35px;
+}
+.ourlocation .location-text{
+display: inline-block;
+width: 50%;
+vertical-align:top;
+padding: 0 15px;
+
+}
+.ourlocation .location-text h2,.contact h2{
+    padding: 20px 0;
+}
+.ourlocation .location-img{
+display: inline-block;
+width: 45%;
+}
+.ourlocation .location-img img{
+    width: 100%;
+}
+.ourlocation,.contact{
+    padding: 80px 0;
+}
+
+/* baking */
+.baking{
+    text-align: center;
+    margin: 80px 0;
+}
+
+.item{
+    width: 33.3333%;
+    float: left;
+    padding: 50px 20px;
+
+}
+.clear-fix{
+    clear: both;
+}
+.item img{
+    width: 100%;
+}
+.baking p,.contact p{
+    font-size: 17px;
+    font-family: "Alegreya Sans", sans-serif;
+    color: #888;
+    line-height: 30px;
+}
+.baking h2 ,h3{
+    padding: 20px 0;
+}
+
+/* Contact Information */
+.contact-text{
+  width: 50%;
+  float: left;
+}
+.contact-img{
+    width: 50%;
+    float: right;
+}
+.contactDetails{
+    padding-bottom: 10px;
+}
+.contact .icon-img {
+    background-color:#8e7754;
+    color:white;
+}
+
+/* footer */
+.footer .parent .child{
+    width: 25%;
+    float: left;
+}
+.footer .parent .child h3{
+    padding: 30px 0;
+    color: white;
+    font-family: "Alegreya";
+    font-weight: 400;
+}
+.footer .parent .child ul li{
+    list-style: none;
+    padding: 15px 5px;
+    border-bottom: 1px solid #b7b6b62d;
+
+}
+.footer .parent .child{
+    padding: 0 15px;
+}
+.footer{
+    padding: 30px 0;
+    background-color: #403d38
+}
+.footer p{
+    color: #969696;
+    line-height: 30px;
+    font-family: "Alegreya Sans", sans-serif;
+}
+.footer p span{
+    padding-right: 5px;
+}
+
+
+.mainfooter{
+    background-color: #353330;
+    text-align: center;
+    padding: 50px 0;
+    color: #969696;
+}
+.mainfooter p{
+    padding: 10px 0;
+}
+.mainfooter .icons .icon{
+    float: left;
+    border-radius: 50%;
+    border:1px solid   #969696;
+    background-color: #8888882b;
+    margin: 20px 5px;
+   
+}
+.mainfooter .icons .icon i{
+    padding: 5px 15px;
+}
+.icons{
+    margin: auto;
+    width: 15%;
+}
